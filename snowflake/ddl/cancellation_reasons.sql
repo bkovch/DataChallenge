@@ -6,9 +6,10 @@ create or replace table cancellation_reasons (
 ;
 
 insert into cancellation_reasons
-values  ('A', 'Airline/Carrier'),
-		('B', 'Weather'),
-		('C', 'National Air System'),
-		('D', 'Security');
-        
+values
+    ('A', 'Airline/Carrier'),
+    ('B', 'Weather'),
+    ('C', 'National Air System'),
+    ('D', 'Security');
+
 select * from cancellation_reasons;
